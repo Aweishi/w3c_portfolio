@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+nav{}
+nav li{
+	float: left;
+	padding: 8px 16px;
+}
+nav a{
+	text-decoration: none;
+	color: #777777;
+}
+
+.search a{
+	float: right;
+}
+
+.colorG{
+	color: #777777;
+}
