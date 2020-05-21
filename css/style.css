@@ -2,9 +2,15 @@
 	margin:0;
 	padding:0;
 	list-style:none;
+	box-sizing: border-box;
 }
 
-nav{}
+nav{
+	background-image: url(../assets/asset11.jpeg);
+	width: 100%;
+	height: 948px;
+	background-size: 100%;
+}
 nav li{
 	float: left;
 	padding: 8px 16px;
@@ -14,10 +20,26 @@ nav a{
 	color: #777777;
 }
 
-.search a{
+nav a:last-of-type{
 	float: right;
+
+}
+
+.clearfix{
+	clear: both;
 }
 
 .colorG{
 	color: #777777;
+}
+
+.colorW{
+	color: #fff;
+}
+
+.nav_title{
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: #000000;
+	margin-left: 50%;
 }
